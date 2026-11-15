@@ -18,6 +18,8 @@ ol{
 	background-color: blanchedalmond;
 	padding: 20px;
 	border-radius: 15px;
+	font-size: 20px;
+	font-family: permenantmarker;
 }
 li{
 	counter-increment: my-counter;
@@ -33,6 +35,7 @@ h2{
 }
 p{
 	font-size: 20px;
+	font-family: permenantmarker;
 }
 h3{
 	color:darksalmon;
@@ -59,4 +62,7 @@ h5{
 	font-family: Georgia, serif;
 	text-align: center;
 	font-size: 70px;
+}
+section {
+    margin-bottom: 50px;
 }
