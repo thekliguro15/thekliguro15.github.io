@@ -1,0 +1,56 @@
+h1{
+	color:darksalmon;
+	font-family: Georgia, serif;
+	text-align: center;
+	font-size: 100px;
+}
+img{
+	width:400px;
+	height:auto;
+	border-radius: 40px;
+	border: 8px dashed darksalmon;
+	display: block;
+	margin: auto;
+}
+ol{
+	list-style: none;
+	counter-reset: my-counter;
+	background-color: blanchedalmond;
+	padding: 20px;
+	border-radius: 15px;
+}
+li{
+	counter-increment: my-counter;
+}
+li::before{
+	content:"🐾";
+}
+h2{
+	color:darksalmon;
+	font-family: Georgia, serif;
+	text-align: center;
+	font-size: 50px;
+}
+p{
+	font-size: 20px;
+}
+h3{
+	color:darksalmon;
+	font-family: Georgia, serif;
+	text-align: center;
+	font-size: 70px;
+}
+.section-background {
+    background-color: blanchedalmond;
+    padding: 30px;
+}
+h4{
+	color:darksalmon;
+	font-family: Georgia, serif;
+	text-align: center;
+	font-size: 70px;
+}
+ .big{
+	width: 800px;
+	image-height: auto;
+}
